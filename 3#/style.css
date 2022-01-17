@@ -18,11 +18,15 @@ nav{
     min-width: 1615px;
 }
 
-
-section div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 27rem;
+nav div:nth-child(2){
+    
 }
+
+nav div:nth-child(2) img{
+    width: 239px;
+    height: 69px;
+    cursor: pointer;
+}
+
+
+
