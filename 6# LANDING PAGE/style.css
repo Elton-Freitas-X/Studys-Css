@@ -43,6 +43,27 @@ header nav a{
 
 /*dropdouwn*/
 
+header nav a:nth-child(1) {
+    position: relative;
+}
+
+header nav a ul {
+    display: none;
+}
+
+header nav a ul {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+header nav a:hover ul{
+    display: block;
+    position: absolute;
+    transition: 1s;
+}
+
+
 main {
     border-top: 0.125rem solid rgb(178, 187, 181);
     margin-bottom: 3rem;
