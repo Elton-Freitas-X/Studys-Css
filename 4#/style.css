@@ -112,7 +112,7 @@ footer{
 
 footer i{
     font-size: 3rem;
-    animation: is-boucing 1s ease alternate infinite;
+    animation: is-boucing 5s ease alternate infinite;
 }
 
 
@@ -139,7 +139,9 @@ footer i{
 /*****o peixe******/
 @keyframes is-boucing {
     to {
-        transform: translateY(2rem);
+        transform: translateX(-2rem);
+    } from{
+        transform: translateX(2rem);
     }
 }
 
