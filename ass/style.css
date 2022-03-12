@@ -6,7 +6,8 @@
 }
 
 nav{
-    height: 80px;
+    height: 10vh;
+    min-height: 70px;
     width:100%;
     min-width: 1280px;
     display: flex;
@@ -43,7 +44,7 @@ nav{
     padding-left: 10px;
     border-radius: 4px;
     outline: none;
-    border: solid 1px #ED3237;
+    border: solid 2px #ED3237;
 }
 
 .icons{
@@ -66,11 +67,12 @@ main{
     height: 80vh;
     width: 100%;
     min-width: 1280px;
-    min-height: 720px;
+    min-height: 680px;
 }
 
 main section:nth-child(1){
     color: #4E4E4E;
+    width: 50vw;
 }
 
 main section:nth-child(1) h1{
@@ -101,58 +103,96 @@ main section:nth-child(1) div p span{
 }
 
 main section:nth-child(2) {
-    border: 1px solid #4E4E4E;
+    border: 2px solid #9c9999;
+    padding: 30px;
     border-radius: 4px;
-    padding: 20px 30px;
+    height: 80vh;
+    width: 30vw;
+}
 
+main section:nth-child(2) div {
+    width: 375px;
+}
 
-    height: 88vh;
-    width: 31vw;
+main section:nth-child(2) .opcoes{
+    border-bottom: 1px solid #f09035;
+    width: 100%;
+    height: 88px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+}
+
+main section:nth-child(2) .opcoes div{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: end;
+}
+
+main section:nth-child(2) .opcoes div div{
+    width: 89px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #f09035;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 main section:nth-child(2) div h1 {
     font-size: 14px;
-    color: #4E4E4E;
+    color: #4e4e4e;
 }
 
-main section:nth-child(2) div p{
+main section:nth-child(2) div p {
     color: #f09035;
     font-size: 14px;
 }
 
-main section:nth-child(2) div .contador{
-    display: flex;
+
+main section:nth-child(2) .FirstLast{
+    background-color: rgba(253, 215, 14, 0.2);
+    padding: 8px 12px;
     width: 100%;
-    text-align: center;
-    justify-content: end;
-    letter-spacing:  10px;
 }
 
-main section:nth-child(2) .FirstLast {
- background-color: rgba(253, 215, 14, 0.2);
- width: 375px;
- height: 55px;
- padding: 16px 16px;
+main section:nth-child(2) .adicionar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
 }
 
-main section:nth-child(2) div:nth-child(2),
-main section:nth-child(2) div:nth-child(3),
-main section:nth-child(2) div:nth-child(4),
-main section:nth-child(2) div:nth-child(5){
-    padding: 16px 16px;
-}
-
-main section:nth-child(2) div:nth-child(1) h1{
+main section:nth-child(2) .adicionar div{
+    margin: 8px 12px;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #F09035;
+    border-radius: 4px;
     font-size: 14px;
-    padding-bottom: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
-main section:nth-child(2) div:nth-child(1) p {
-    font-size: 12px;
-    color:#E49700;
+main section:nth-child(2) .adicionar button {
+    border: none;
+    background-color: #F09035;
+    border-radius: 4px;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    margin: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
 }
+
+
+
+
+
+
 
 
